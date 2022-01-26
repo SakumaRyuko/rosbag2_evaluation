@@ -1,0 +1,4 @@
+/test_Range:
+  reliability: reliable
+  durability: transient_local
+  history: keep_all

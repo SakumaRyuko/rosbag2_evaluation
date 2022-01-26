@@ -1,0 +1,4 @@
+/test_Struct16:
+  reliability: reliable
+  durability: volatile
+  history: keep_all

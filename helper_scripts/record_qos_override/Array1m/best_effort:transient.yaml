@@ -1,0 +1,4 @@
+/test_Array1m:
+  reliability: best_effort
+  durability: transient_local
+  history: keep_all

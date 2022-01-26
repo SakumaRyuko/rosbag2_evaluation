@@ -1,0 +1,4 @@
+/test_NavSatFix:
+  reliability: reliable
+  durability: volatile
+  history: keep_all

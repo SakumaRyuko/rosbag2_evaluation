@@ -1,0 +1,4 @@
+/test_Struct4k:
+  reliability: reliable
+  durability: volatile
+  history: keep_all

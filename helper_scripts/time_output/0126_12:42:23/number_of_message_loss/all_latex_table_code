@@ -1,0 +1,24 @@
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_cyclonedds\_cpp,100,best\_effort,volatile}
+\caption{Number of lost messages. DDS is rmw\_cyclonedds\_cpp, Publish rate is 100, and QoS is best\_effort/volatile}
+\begin{tabular}{|c||c|}\hline
+no discovery & \multicolumn{1}{c|}{false} \\\hline
+max cache size & \multicolumn{1}{c|}{guide} \\\hline
+storage preset profile & \multicolumn{1}{c|}{default} \\\hline\hline
+Array1k & 47 \\\hline
+\end{tabular}
+\end{table*}
+
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_cyclonedds\_cpp,100,best\_effort,transient}
+\caption{Number of lost messages. DDS is rmw\_cyclonedds\_cpp, Publish rate is 100, and QoS is best\_effort/transient}
+\begin{tabular}{|c||c|}\hline
+no discovery & \multicolumn{1}{c|}{false} \\\hline
+max cache size & \multicolumn{1}{c|}{guide} \\\hline
+storage preset profile & \multicolumn{1}{c|}{default} \\\hline\hline
+Array1k & 43 \\\hline
+\end{tabular}
+\end{table*}
+

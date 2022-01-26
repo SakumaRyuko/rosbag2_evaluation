@@ -1,0 +1,4 @@
+/test_Struct32k:
+  reliability: best_effort
+  durability: transient_local
+  history: keep_all

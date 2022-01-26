@@ -1,0 +1,144 @@
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_cyclonedds\_cpp,100,best\_effort,volatile}
+\caption{Number of lost messages. DDS is rmw\_cyclonedds\_cpp, Publish rate is 100, and QoS is best\_effort/volatile}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
+no discovery & \multicolumn{4}{c|}{true} & \multicolumn{4}{c|}{false} \\\hline
+max cache size & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} \\\hline
+storage preset profile & default & resilient & default & resilient & default & resilient & default & resilient \\\hline\hline
+Array1k & 8 & 55 & 0 & 0 & 0 & 59 & 0 & 0 \\\hline
+Array4k & 45 & 43 & 0 & 0 & 0 & 0 & 0 & 0 \\\hline
+Array16k & 0 & 42 & 0 & 48 & 0 & 0 & 0 & 0 \\\hline
+Array64k & 0 & 43 & 0 & 0 & 0 & 0 & 0 & 0 \\\hline
+Array256k & 0 & 2 & 3 & 176 & 0 & 0 & 2 & 0 \\\hline
+Array1m & 39 & 1637 & 14 & 14 & 39 & 1660 & 82 & 1526 \\\hline
+Array2m & 25 & 401 & 438 & 1734 & 606 & 388(2) & 1999 & 300(2) \\\hline
+\end{tabular}
+\end{table*}
+
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_cyclonedds\_cpp,100,best\_effort,transient}
+\caption{Number of lost messages. DDS is rmw\_cyclonedds\_cpp, Publish rate is 100, and QoS is best\_effort/transient}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
+no discovery & \multicolumn{4}{c|}{true} & \multicolumn{4}{c|}{false} \\\hline
+max cache size & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} \\\hline
+storage preset profile & default & resilient & default & resilient & default & resilient & default & resilient \\\hline\hline
+Array1k & 69 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\hline
+Array4k & 0 & 0 & 0 & 74 & 0 & 0 & 0 & 0 \\\hline
+Array16k & 0 & 0 & 0 & 42 & 0 & 0 & 0 & 0 \\\hline
+Array64k & 0 & 0 & 1807 & 45 & 0 & 0 & 0 & 0 \\\hline
+Array256k & 0 & 636 & 0 & 2 & 0 & 0 & 0 & 387 \\\hline
+Array1m & 42 & 13 & 72 & 1529 & 68 & 94 & 21 & 109 \\\hline
+Array2m & 625 & 1848 & 527(2) & 354 & 515(2) & 1999 & 29 & 1999 \\\hline
+\end{tabular}
+\end{table*}
+
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_cyclonedds\_cpp,100,reliable,volatile}
+\caption{Number of lost messages. DDS is rmw\_cyclonedds\_cpp, Publish rate is 100, and QoS is reliable/volatile}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
+no discovery & \multicolumn{4}{c|}{true} & \multicolumn{4}{c|}{false} \\\hline
+max cache size & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} \\\hline
+storage preset profile & default & resilient & default & resilient & default & resilient & default & resilient \\\hline\hline
+Array1k & 0 & 0 & 0 & 63 & 0 & 0 & 0 & 64 \\\hline
+Array4k & 0 & 0 & 0 & 43 & 0 & 0 & 0 & 0 \\\hline
+Array16k & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\hline
+Array64k & 0 & 43 & 0 & 42 & 0 & 0 & 0 & 0 \\\hline
+Array256k & 0 & 0 & 0 & 92 & 0 & 0 & 0 & 0 \\\hline
+Array1m & 0 & 1645 & 0 & 0 & 0 & 1689 & 0 & 1489 \\\hline
+Array2m & 0 & 422 & 586 & 1758 & 0 & 414 & 637 & 346 \\\hline
+\end{tabular}
+\end{table*}
+
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_cyclonedds\_cpp,100,reliable,transient}
+\caption{Number of lost messages. DDS is rmw\_cyclonedds\_cpp, Publish rate is 100, and QoS is reliable/transient}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
+no discovery & \multicolumn{4}{c|}{true} & \multicolumn{4}{c|}{false} \\\hline
+max cache size & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} \\\hline
+storage preset profile & default & resilient & default & resilient & default & resilient & default & resilient \\\hline\hline
+Array1k & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\hline
+Array4k & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\hline
+Array16k & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\hline
+Array64k & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\hline
+Array256k & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 96 \\\hline
+Array1m & 0 & 1627 & 0 & 1430 & 0 & 1693 & 0 & 0 \\\hline
+Array2m & 699 & 406 & 573 & 1906 & 713 & 440 & 652 & 1750 \\\hline
+\end{tabular}
+\end{table*}
+
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_fastrtps\_cpp,100,best\_effort,volatile}
+\caption{Number of lost messages. DDS is rmw\_fastrtps\_cpp, Publish rate is 100, and QoS is best\_effort/volatile}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
+no discovery & \multicolumn{4}{c|}{true} & \multicolumn{4}{c|}{false} \\\hline
+max cache size & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} \\\hline
+storage preset profile & default & resilient & default & resilient & default & resilient & default & resilient \\\hline\hline
+Array1k & 0(2) & 0(3) & 0 & 0(2) & 0 & 0 & 0 & 0 \\\hline
+Array4k & 0 & 0 & 0 & 2000(3) & 0 & 0 & 0 & 0 \\\hline
+Array16k & 0(3) & 0(3) & 0 & 0(2) & 0 & 0 & 0 & 0 \\\hline
+Array64k & 11(2) & 2 & 9(2) & 7 & 0 & 18 & 4 & 17 \\\hline
+Array256k & 3(2) & 701 & 0(2) & 3 & 2 & 5 & 11 & 11 \\\hline
+Array1m & 70(3) & 494(2) & 84(2) & 1523 & 69 & 1598 & 88 & 1513 \\\hline
+Array2m & 2000(3) & 1844 & 2000(3) & 2000(3) & 773 & 536 & 493 & 438 \\\hline
+\end{tabular}
+\end{table*}
+
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_fastrtps\_cpp,100,best\_effort,transient}
+\caption{Number of lost messages. DDS is rmw\_fastrtps\_cpp, Publish rate is 100, and QoS is best\_effort/transient}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
+no discovery & \multicolumn{4}{c|}{true} & \multicolumn{4}{c|}{false} \\\hline
+max cache size & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} \\\hline
+storage preset profile & default & resilient & default & resilient & default & resilient & default & resilient \\\hline\hline
+Array1k & 0(2) & 2000(3) & 2000(3) & 2000(3) & 0 & 43 & 0 & 0 \\\hline
+Array4k & 0(2) & 42 & 2000(3) & 2000(3) & 0 & 0 & 0 & 0 \\\hline
+Array16k & 0 & 42 & 2000(3) & 0 & 0 & 0 & 0 & 0 \\\hline
+Array64k & 2 & 3 & 0(2) & 3 & 15 & 13 & 0 & 8 \\\hline
+Array256k & 0 & 2000(3) & 4 & 2000(3) & 7 & 5 & 10 & 340 \\\hline
+Array1m & 90 & 180(2) & 2000(3) & 259(2) & 123 & 1620 & 105 & 461 \\\hline
+Array2m & 560 & 2000(3) & 2000(3) & 2000(3) & 687 & 540 & 673 & 1705 \\\hline
+\end{tabular}
+\end{table*}
+
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_fastrtps\_cpp,100,reliable,volatile}
+\caption{Number of lost messages. DDS is rmw\_fastrtps\_cpp, Publish rate is 100, and QoS is reliable/volatile}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
+no discovery & \multicolumn{4}{c|}{true} & \multicolumn{4}{c|}{false} \\\hline
+max cache size & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} \\\hline
+storage preset profile & default & resilient & default & resilient & default & resilient & default & resilient \\\hline\hline
+Array1k & 2000(3) & 0(2) & 0 & 0(2) & 0 & 0 & 0 & 44 \\\hline
+Array4k & 2000(3) & 0(3) & 0 & 0(2) & 0 & 0 & 0 & 0 \\\hline
+Array16k & 0 & 2000(3) & 2000(3) & 2000(3) & 0 & 0 & 0 & 0 \\\hline
+Array64k & 2000(3) & 0 & 0(2) & 0 & 0 & 0 & 0 & 0 \\\hline
+Array256k & 2000(3) & 2000(3) & 0(3) & 105 & 0 & 0 & 0 & 0 \\\hline
+Array1m & 0 & 2000(3) & 2000(3) & 1550 & 0 & 1615 & 0 & 1514 \\\hline
+Array2m & 803 & 2000(3) & 54(3) & 464(3) & 239 & 563 & 704 & 410 \\\hline
+\end{tabular}
+\end{table*}
+
+\begin{table*}
+\centering
+\label{Messageloss:rmw\_fastrtps\_cpp,100,reliable,transient}
+\caption{Number of lost messages. DDS is rmw\_fastrtps\_cpp, Publish rate is 100, and QoS is reliable/transient}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
+no discovery & \multicolumn{4}{c|}{true} & \multicolumn{4}{c|}{false} \\\hline
+max cache size & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} & \multicolumn{2}{c|}{104857600} & \multicolumn{2}{c|}{209715200} \\\hline
+storage preset profile & default & resilient & default & resilient & default & resilient & default & resilient \\\hline\hline
+Array1k & 0(2) & 0 & 2000(3) & 0(2) & 0 & 0 & 0 & 0 \\\hline
+Array4k & 0(3) & 0 & 0(3) & 0 & 0 & 0 & 0 & 0 \\\hline
+Array16k & 0(2) & 0(3) & 0(2) & 0(2) & 0 & 0 & 0 & 0 \\\hline
+Array64k & 0(3) & 0 & 2000(3) & 0 & 0 & 0 & 0 & 0 \\\hline
+Array256k & 0(2) & 2000(3) & 2000(3) & 206 & 0 & 816 & 0 & 120 \\\hline
+Array1m & 0 & 2000(3) & 2000(3) & 0(2) & 0 & 0 & 0 & 0 \\\hline
+Array2m & 717 & 536 & 5(3) & 1719(3) & 0 & 1848 & 630 & 1716 \\\hline
+\end{tabular}
+\end{table*}
+

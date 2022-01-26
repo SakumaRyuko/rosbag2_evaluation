@@ -1,0 +1,4 @@
+/test_Struct16:
+  reliability: reliable
+  durability: transient_local
+  history: keep_all

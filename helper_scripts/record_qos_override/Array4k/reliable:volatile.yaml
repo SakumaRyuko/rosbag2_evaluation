@@ -1,0 +1,4 @@
+/test_Array4k:
+  reliability: reliable
+  durability: volatile
+  history: keep_all

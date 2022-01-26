@@ -1,0 +1,31 @@
+rosbag2_evaluation:
+  ros__parameters:
+    dds: ["rmw_cyclonedds_cpp"] # ["rmw_cyclonedds_cpp","rmw_fastrtps_cpp"]
+    perf_test_parameters:
+      topics: ["Array1k"] # you can set the below configurations
+      rate: ["100"] #,"100"]
+      reliability: ["reliable"] # 固定(サブスクライバー：recordのQoSに依存するため)
+      durability: ["transient"] # 固定 
+      number_of_publish: 2000
+    rosbag2_parameters:
+      record:
+        no_discovery: ["false"] #["true","false"]
+        max_cache_size: ["guide"] #["0","default","guide" ] default=100mebibytes=104857600bytes
+        storage_preset_profile: ["default"] #,"resilient"] #["default","resilient"] 
+        qos:
+          reliability: ["best_effort"]
+          durability: ["volatile","transient"] #,"transient"] #["volatile","transient"]
+      play:
+        read_ahead_queue_size: ["10000"]
+        rate: ["default"]
+        qos:
+          reliability: ["reliable"] # ["best_effort","reliable"]
+          durability: ["transient"] # ["volatile","transient"]
+
+#topics = [
+# "Array1k", "Array4k", "Array16k", "Array32k", "Array64k", "Array256k","Array1m", "Array2m", 
+# "Struct256", "Struct4k","Struct32k", 
+# "PointCloud512k", "PointCloud1m", "PointCloud2m","PointCloud4m", 
+# "Range", "NavSatFix", "RadarDetection", "RadarTrack"
+#        ]
+#

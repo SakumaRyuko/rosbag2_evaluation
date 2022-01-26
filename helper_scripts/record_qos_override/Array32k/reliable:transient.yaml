@@ -1,0 +1,4 @@
+/test_Array32k:
+  reliability: reliable
+  durability: transient_local
+  history: keep_all

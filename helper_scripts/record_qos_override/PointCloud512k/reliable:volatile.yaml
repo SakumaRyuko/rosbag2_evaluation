@@ -1,0 +1,4 @@
+/test_PointCloud512k:
+  reliability: reliable
+  durability: volatile
+  history: keep_all

@@ -1,0 +1,4 @@
+/test_Array16k:
+  reliability: best_effort
+  durability: volatile
+  history: keep_all
